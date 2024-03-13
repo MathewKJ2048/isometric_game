@@ -1,0 +1,27 @@
+tools:
+laser-tracer
+gun-lock
+
+NPCs:
+rammer
+gun turret
+
+features:
+things explode
+bullet recoil
+minimap
+dynamic load screen
+
+level-design:
+coordinates for the prison, dimensions for prison
+perlin noise
+map-normalization
+
+physics:
+bug with noclip - z
+
+rendering:
+utterly broken, do whole thing again with openGL if possible
+
+scope:
+must be runnable on a browser

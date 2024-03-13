@@ -149,5 +149,5 @@ for key in ps.func_profiles:
     info = key + " (in line "+str(value.line_number)+" of "+str(value.file_name)+")"
     s+="\n"+cell(value.ncalls)+cell(value.tottime)+cell(percent_time(value.tottime))+cell(value.percall_tottime)+cell(value.cumtime)+cell(percent_time(value.cumtime))+cell(value.percall_cumtime)+info
 
-with open('test.txt', 'w+') as f:
+with open('./out/profile.txt', 'w+') as f:
     f.write(s)
