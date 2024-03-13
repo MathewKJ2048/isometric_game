@@ -25,3 +25,4 @@ utterly broken, do whole thing again with openGL if possible
 
 scope:
 must be runnable on a browser
+no assets whatsoever, everything procedurally generated (high-level world design is fine)
